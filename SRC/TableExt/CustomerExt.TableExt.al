@@ -5,7 +5,7 @@ tableextension 50200 CustomerExt extends Customer
         field(50200; "Phone No. Authentication"; Boolean)
         {
             Caption = 'Phone No. Authentication';
-            // Editable = false;
+            Editable = false;
             DataClassification = ToBeClassified;
         }
         modify("Mobile Phone No.")
